@@ -1,0 +1,88 @@
+Below are outputs from my program, basically it write to this .txt file as:
+User with email: 'email input from program' report 'this email' as 'type of email'
+and include with source email as:
+Email source found: 'after the @'
+This way, we can check whether an email is valid or suspicious.
+Require checking and maintaining daily to ensure, no fraud email is reported as Valid and vice versa.
+- Made by phuc.hua@ryerson.ca -
+
+User with email: 'etarakoem@gmail.com' report 'ebay@reply2.ebay.ca' as 'Valid email'
+Email source found: @reply2.ebay.ca
+
+User with email: 'phuc.hua@ryerson.ca' report 'ebay@reply.ebay.ca' as 'Valid email'
+Email source found: @reply.ebay.ca
+
+User with email: 'Anonymous' report 'somethingsuspicious@gmail.com' as 'Valid email'
+Email source found: @gmail.com
+
+User with email: 'imtiredofretryingthisprogram@gmail.com' report 'definitelynotscam@random.ca' as 'Suspicious email'
+Email source found: @random.ca
+
+User with email: 'todayisOct4th2020.ca' report 'idk@yougiveme.ca' as 'Suspicious email'
+Email source found: @yougiveme.ca
+
+User with email: 'Anonymous' report 'idk@yougiveme.ca' as 'Suspicious email'
+Email source found: @yougiveme.ca
+
+User with email: 'Anonymous' report 'imnotfake@fb.com' as 'Suspicious email'
+Email source found: @fb.com
+
+User with email: 'Anonymous' report 'random@ryerson.ca' as 'Suspicious email'
+Email source found: @ryerson.ca
+
+User with email: 'Anonymous' report 'random@yerson.ca' as 'Valid email'
+Email source found: @yerson.ca
+
+User with email: 'etarakoem@gmail.com' report 'link@fb.com' as 'Suspicious email'
+Email source found: @fb.com
+
+User with email: '' report 'definitelynotscam@mazon.ca' as 'Suspicious email'
+Email source found: @mazon.ca
+
+User with email: 'Anonymous' report 'store-news@amazon.ca' as 'Valid email'
+Email source found: @amazon.ca
+
+User with email: 'Anonymous' report 'someone@yerson.ca' as 'Suspicious email'
+Email source found: @yerson.ca
+
+User with email: 'etarakoem@gmail.com' report 'ebay@reply2.ebay.ca' as 'Valid email'
+Email source found: @reply2.ebay.ca
+
+User with email: 'phuc.hua@ryerson.ca' report 'ebay@reply.ebay.ca' as 'Valid email'
+Email source found: @reply.ebay.ca
+
+User with email: 'Anonymous' report 'somethingsuspicious@gmail.com' as 'Valid email'
+Email source found: @gmail.com
+
+User with email: 'imtiredofretryingthisprogram@gmail.com' report 'definitelynotscam@random.ca' as 'Suspicious email'
+Email source found: @random.ca
+
+User with email: 'todayisOct4th2020.ca' report 'idk@yougiveme.ca' as 'Suspicious email'
+Email source found: @yougiveme.ca
+
+User with email: 'Anonymous' report 'idk@ryerson1.ca' as 'Suspicious email'
+Email source found: @ryerson1.ca
+
+User with email: 'etarakoem@gmail.com' report 'updates-noreply@linkedin.com' as 'Valid email'
+Email source found: @linkedin.com
+
+User with email: 'Anonymous' report 'updates-noreply@linkediin.com' as 'Suspicious email'
+Email source found: @linkediin.com
+
+User with email: 'Anonymous' report 'someone@ryeson.ca' as 'Suspicious email'
+Email source found: @ryeson.ca
+
+User with email: 'Anonymous' report 'me@ryerson.ca' as 'Valid email'
+Email source found: @ryerson.ca
+
+User with email: 'Anonymous' report 'myfb@facebook.com' as 'Valid email'
+Email source found: @facebook.com
+
+User with email: 'Anonymous' report 'myIcloud@iCloud.ca' as 'Valid email'
+Email source found: @iCloud.ca
+ 
+User with email: 'Anonymous' report 'Sombod@ryersonn.ca' as 'Suspicious email'
+Email source found: @ryersonn.ca
+ 
+User with email: 'Anonymous' report 'someone@ryersonU.ca' as 'Suspicious email'
+Email source found: @ryersonU.ca
